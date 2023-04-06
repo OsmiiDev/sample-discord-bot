@@ -1,0 +1,83 @@
+[2023-03-23T19:23:00.286] [INFO] default - Logged in as Academia#0862
+[2023-03-23T19:23:00.290] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T19:23:00.292] [INFO] default - Loading module Ban.js
+[2023-03-23T19:23:00.294] [INFO] default - Loading module ReactRoles.js
+[2023-03-23T19:23:00.295] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T19:23:00.296] [INFO] default - Loading module Verification.js
+[2023-03-23T19:23:00.298] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:23:00.311] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T19:23:00.313] [INFO] default - Loading command Cases.command.js
+[2023-03-23T19:23:00.316] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T19:23:00.318] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:23:00.323] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T19:23:00.324] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:23:00.331] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T19:23:00.334] [INFO] default - Loading command ReactionRoles.command.js
+[2023-03-23T19:23:00.344] [INFO] default - Loaded command CHAT_INPUT_reactroles
+[2023-03-23T19:23:00.346] [INFO] default - Loading command Reason.command.js
+[2023-03-23T19:23:00.349] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T19:23:00.351] [INFO] default - Loading command Unban.command.js
+[2023-03-23T19:23:00.355] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T19:23:00.356] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T19:23:00.359] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T19:23:00.361] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:23:00.367] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T19:23:00.370] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:23:00.378] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T19:23:00.380] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:23:00.385] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T19:23:00.387] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:23:00.394] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T19:23:00.396] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:23:00.398] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T19:23:00.400] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:23:00.407] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T19:23:00.408] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:23:00.413] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T19:23:00.415] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:23:00.421] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T19:23:00.423] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:23:00.430] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T19:23:00.431] [INFO] default - All modules and commands loaded
+[2023-03-23T19:23:00.477] [INFO] default - Loading module Kick.js
+[2023-03-23T19:23:00.479] [INFO] default - Loading module TicketManager.js
+[2023-03-23T19:23:00.481] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T19:23:00.483] [INFO] default - Loading module Logging.js
+[2023-03-23T19:23:00.487] [INFO] default - Loading module Mute.js
+[2023-03-23T19:23:00.490] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T19:23:00.495] [INFO] default - Loading module Warn.js
+[2023-03-23T19:23:03.506] [INFO] default - Updating cases...
+[2023-03-23T19:23:08.510] [INFO] default - Updating cases...
+[2023-03-23T19:23:13.513] [INFO] default - Updating cases...
+[2023-03-23T19:23:14.934] [INFO] default - /reactroles run by Osmii#0076
+[2023-03-23T19:23:15.467] [ERROR] default - DiscordAPIError[10014]: Unknown Emoji
+    at SequentialHandler.runRequest (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:659:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.queueRequest (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:458:14)
+    at async REST.request (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:902:22)
+    at async MessageManager.react (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\managers\MessageManager.js:242:5)
+    at async Message.react (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\structures\Message.js:741:5) {
+  requestBody: { files: undefined, json: undefined },
+  rawError: { message: 'Unknown Emoji', code: 10014 },
+  code: 10014,
+  status: 400,
+  method: 'PUT',
+  url: 'https://discord.com/api/v10/channels/1087810208941744219/messages/1088618566489747607/reactions/osmii:1078375518287712296/@me'
+}
+[2023-03-23T19:23:18.523] [INFO] default - Updating cases...
+[2023-03-23T19:23:23.533] [INFO] default - Updating cases...
+[2023-03-23T19:23:28.538] [INFO] default - Updating cases...
+[2023-03-23T19:23:33.544] [INFO] default - Updating cases...
+[2023-03-23T19:23:38.552] [INFO] default - Updating cases...
+[2023-03-23T19:23:43.557] [INFO] default - Updating cases...
+[2023-03-23T19:23:48.561] [INFO] default - Updating cases...
+[2023-03-23T19:23:53.566] [INFO] default - Updating cases...
+[2023-03-23T19:23:58.581] [INFO] default - Updating cases...
+[2023-03-23T19:24:03.595] [INFO] default - Updating cases...
+[2023-03-23T19:24:08.597] [INFO] default - Updating cases...
+[2023-03-23T19:24:13.613] [INFO] default - Updating cases...
+[2023-03-23T19:24:18.616] [INFO] default - Updating cases...
+[2023-03-23T19:24:23.634] [INFO] default - Updating cases...
+[2023-03-23T19:24:28.647] [INFO] default - Updating cases...
+[2023-03-23T19:24:33.664] [INFO] default - Updating cases...
+[2023-03-23T19:24:38.666] [INFO] default - Updating cases...

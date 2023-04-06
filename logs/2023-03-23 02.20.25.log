@@ -1,0 +1,63 @@
+[2023-03-23T02:20:26.021] [INFO] default - Logged in as Academia#0862
+[2023-03-23T02:20:26.025] [INFO] default - Loading module Ban.js
+[2023-03-23T02:20:26.027] [INFO] default - Loading command Ban.command.js
+[2023-03-23T02:20:26.041] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T02:20:26.043] [INFO] default - Loading command Cases.command.js
+[2023-03-23T02:20:26.047] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T02:20:26.050] [INFO] default - Loading command Kick.command.js
+[2023-03-23T02:20:26.057] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T02:20:26.059] [INFO] default - Loading command Mute.command.js
+[2023-03-23T02:20:26.065] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T02:20:26.067] [INFO] default - Loading command Reason.command.js
+[2023-03-23T02:20:26.069] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T02:20:26.071] [INFO] default - Loading command Unban.command.js
+[2023-03-23T02:20:26.074] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T02:20:26.076] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T02:20:26.081] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T02:20:26.083] [INFO] default - Loading command Warn.command.js
+[2023-03-23T02:20:26.088] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T02:20:26.091] [INFO] default - Loading command Ban.command.js
+[2023-03-23T02:20:26.100] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T02:20:26.103] [INFO] default - Loading command Kick.command.js
+[2023-03-23T02:20:26.106] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T02:20:26.107] [INFO] default - Loading command Mute.command.js
+[2023-03-23T02:20:26.112] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T02:20:26.113] [INFO] default - Loading command Warn.command.js
+[2023-03-23T02:20:26.115] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T02:20:26.118] [INFO] default - Loading command Ban.command.js
+[2023-03-23T02:20:26.127] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T02:20:26.134] [INFO] default - Loading command Kick.command.js
+[2023-03-23T02:20:26.138] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T02:20:26.139] [INFO] default - Loading command Mute.command.js
+[2023-03-23T02:20:26.142] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T02:20:26.143] [INFO] default - Loading command Warn.command.js
+[2023-03-23T02:20:26.149] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T02:20:26.153] [INFO] default - All modules and commands loaded
+[2023-03-23T02:20:26.166] [INFO] default - Loading module Kick.js
+[2023-03-23T02:20:26.169] [INFO] default - Loading module Logging.js
+[2023-03-23T02:20:26.175] [INFO] default - Loading module Mute.js
+[2023-03-23T02:20:26.177] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T02:20:26.183] [INFO] default - Loading module Warn.js
+[2023-03-23T02:20:29.184] [INFO] default - Updating cases...
+[2023-03-23T02:20:34.199] [INFO] default - Updating cases...
+[2023-03-23T02:20:39.213] [INFO] default - Updating cases...
+[2023-03-23T02:20:44.231] [INFO] default - Updating cases...
+[2023-03-23T02:20:49.243] [INFO] default - Updating cases...
+[2023-03-23T02:20:54.255] [INFO] default - Updating cases...
+[2023-03-23T02:20:57.726] [INFO] default - /reason run by Osmii#0076
+[2023-03-23T02:20:57.729] [ERROR] default - TypeError [CommandInteractionOptionNotFound]: Required option "user" not found.
+    at CommandInteractionOptionResolver.get (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\structures\CommandInteractionOptionResolver.js:78:15)
+    at CommandInteractionOptionResolver._getTypedOption (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\structures\CommandInteractionOptionResolver.js:95:25)
+    at CommandInteractionOptionResolver.getUser (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\structures\CommandInteractionOptionResolver.js:193:25)
+    at CasesCommand.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\commands\chat-input\Reason.command.js:37:52)
+    at Generator.next (<anonymous>)
+    at C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\commands\chat-input\Reason.command.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\commands\chat-input\Reason.command.js:4:12)
+    at CasesCommand.execute (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\commands\chat-input\Reason.command.js:35:16)
+    at Object.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\utils\ModuleUtils.js:136:31) {
+  code: 'CommandInteractionOptionNotFound'
+}
+[2023-03-23T02:20:59.270] [INFO] default - Updating cases...
+[2023-03-23T02:21:04.278] [INFO] default - Updating cases...
+[2023-03-23T02:21:09.295] [INFO] default - Updating cases...

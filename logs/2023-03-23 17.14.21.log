@@ -1,0 +1,232 @@
+[2023-03-23T17:14:21.867] [INFO] default - Logged in as Academia#0862
+[2023-03-23T17:14:21.869] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T17:14:21.870] [INFO] default - Loading module Ban.js
+[2023-03-23T17:14:21.871] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T17:14:21.872] [INFO] default - Loading module Verification.js
+[2023-03-23T17:14:21.874] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:14:21.881] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T17:14:21.883] [INFO] default - Loading command Cases.command.js
+[2023-03-23T17:14:21.885] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T17:14:21.886] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:14:21.888] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T17:14:21.890] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:14:21.893] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T17:14:21.893] [INFO] default - Loading command Reason.command.js
+[2023-03-23T17:14:21.895] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T17:14:21.896] [INFO] default - Loading command Unban.command.js
+[2023-03-23T17:14:21.898] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T17:14:21.899] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T17:14:21.900] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T17:14:21.901] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:14:21.904] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T17:14:21.905] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:14:21.909] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T17:14:21.910] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:14:21.912] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T17:14:21.912] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:14:21.915] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T17:14:21.916] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:14:21.918] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T17:14:21.919] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:14:21.922] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T17:14:21.923] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:14:21.925] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T17:14:21.925] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:14:21.927] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T17:14:21.928] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:14:21.929] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T17:14:21.930] [INFO] default - All modules and commands loaded
+[2023-03-23T17:14:21.949] [INFO] default - Loading module Kick.js
+[2023-03-23T17:14:21.950] [INFO] default - Loading module TicketManager.js
+[2023-03-23T17:14:21.951] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T17:14:21.953] [INFO] default - Loading module Logging.js
+[2023-03-23T17:14:21.956] [INFO] default - Loading module Mute.js
+[2023-03-23T17:14:21.957] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T17:14:21.960] [INFO] default - Loading module Warn.js
+[2023-03-23T17:14:24.967] [INFO] default - Updating cases...
+[2023-03-23T17:14:29.971] [INFO] default - Updating cases...
+[2023-03-23T17:14:34.986] [INFO] default - Updating cases...
+[2023-03-23T17:14:39.998] [INFO] default - Updating cases...
+[2023-03-23T17:14:45.010] [INFO] default - Updating cases...
+[2023-03-23T17:14:49.561] [ERROR] default - CombinedPropertyError (1)
+  Received one or more errors
+
+  input[10]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+    at ArrayValidator.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:427:70)
+    at ArrayValidator.parse (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:113:88)
+    at EmbedBuilder.addFields (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:191:31)
+    at VerificationManager.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:64:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-23T17:14:49.786] [ERROR] default - CombinedPropertyError (2)
+  Received one or more errors
+
+  input[10]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[11]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+    at ArrayValidator.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:427:70)
+    at ArrayValidator.parse (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:113:88)
+    at EmbedBuilder.addFields (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:191:31)
+    at VerificationManager.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:64:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-23T17:14:50.013] [INFO] default - Updating cases...
+[2023-03-23T17:14:50.746] [ERROR] default - CombinedPropertyError (3)
+  Received one or more errors
+
+  input[10]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[11]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[12]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+    at ArrayValidator.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:427:70)
+    at ArrayValidator.parse (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:113:88)
+    at EmbedBuilder.addFields (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:191:31)
+    at VerificationManager.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:64:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-23T17:14:53.993] [ERROR] default - Error: SQLITE_ERROR: no such table: application
+--> in Database#prepare('INSERT INTO application (application_id, user_id, type, answers, result) VALUES (?, ?, ?, ?, ?)', [Function (anonymous)])
+    at C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\sqlite\build\Database.js:235:34
+    at new Promise (<anonymous>)
+    at Database.prepare (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\sqlite\build\Database.js:233:16)
+    at VerificationManager.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:121:56)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:5:58) {
+  errno: 1,
+  code: 'SQLITE_ERROR',
+  __augmented: true
+}
+[2023-03-23T17:14:55.033] [INFO] default - Updating cases...
+[2023-03-23T17:15:00.038] [INFO] default - Updating cases...
+[2023-03-23T17:15:05.047] [INFO] default - Updating cases...
+[2023-03-23T17:15:10.048] [INFO] default - Updating cases...
+[2023-03-23T17:15:15.052] [INFO] default - Updating cases...
+[2023-03-23T17:15:20.057] [INFO] default - Updating cases...
+[2023-03-23T17:15:25.082] [INFO] default - Updating cases...
+[2023-03-23T17:15:30.086] [INFO] default - Updating cases...
+[2023-03-23T17:15:35.092] [INFO] default - Updating cases...
+[2023-03-23T17:15:40.094] [INFO] default - Updating cases...
+[2023-03-23T17:15:45.097] [INFO] default - Updating cases...
+[2023-03-23T17:15:50.103] [INFO] default - Updating cases...
+[2023-03-23T17:15:55.120] [INFO] default - Updating cases...
+[2023-03-23T17:15:57.948] [ERROR] default - CombinedPropertyError (4)
+  Received one or more errors
+
+  input[10]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[11]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[12]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[13]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+    at ArrayValidator.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:427:70)
+    at ArrayValidator.parse (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:113:88)
+    at EmbedBuilder.addFields (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:191:31)
+    at VerificationManager.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:64:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-23T17:16:00.137] [INFO] default - Updating cases...
+[2023-03-23T17:16:05.139] [INFO] default - Updating cases...
+[2023-03-23T17:16:10.142] [INFO] default - Updating cases...
+[2023-03-23T17:16:15.144] [INFO] default - Updating cases...
+[2023-03-23T17:16:20.148] [INFO] default - Updating cases...
+[2023-03-23T17:16:25.156] [INFO] default - Updating cases...

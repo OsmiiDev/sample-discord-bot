@@ -1,0 +1,13 @@
+[2023-03-21T17:27:55.157] [INFO] default - Logged in as Academia#0862
+[2023-03-21T17:27:55.162] [INFO] default - Loading command Chess.command.js
+[2023-03-21T17:27:55.205] [INFO] default - Loaded command CHAT_INPUT_chess
+[2023-03-21T17:27:55.207] [INFO] default - Loading command Ban.command.js
+[2023-03-21T17:27:55.213] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-21T17:27:55.214] [INFO] default - Loading command Kick.command.js
+[2023-03-21T17:27:55.219] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-21T17:27:55.220] [INFO] default - Loading command Mute.command.js
+[2023-03-21T17:27:55.225] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-21T17:27:55.226] [INFO] default - Loading command Warn.command.js
+[2023-03-21T17:27:55.231] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-21T17:27:55.231] [INFO] default - All modules and commands loaded
+[2023-03-21T17:28:13.324] [INFO] default - [Warn] run by Osmii#0076

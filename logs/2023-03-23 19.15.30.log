@@ -1,0 +1,72 @@
+[2023-03-23T19:15:30.907] [ERROR] default - Error: SQLITE_ERROR: near ")": syntax error
+--> in Database#exec('\n' +
+  '      CREATE TABLE IF NOT EXISTS reaction_roles (\n' +
+  '        channel_id TEXT NOT NULL,\n' +
+  '        message_id TEXT NOT NULL,\n' +
+  '        emoji TEXT NOT NULL,\n' +
+  '        role_id TEXT NOT NULL,\n' +
+  '      )\n' +
+  '    ', [Function (anonymous)])
+    at C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\sqlite\build\Database.js:212:21
+    at new Promise (<anonymous>)
+    at Database.exec (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\sqlite\build\Database.js:210:16)
+    at DataUtils.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\utils\DataUtils.js:110:27)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\utils\DataUtils.js:5:58) {
+  errno: 1,
+  code: 'SQLITE_ERROR',
+  __augmented: true
+}
+[2023-03-23T19:15:31.444] [INFO] default - Logged in as Academia#0862
+[2023-03-23T19:15:31.446] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T19:15:31.447] [INFO] default - Loading module Ban.js
+[2023-03-23T19:15:31.449] [INFO] default - Loading module ReactRoles.js
+[2023-03-23T19:15:31.450] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T19:15:31.451] [INFO] default - Loading module Verification.js
+[2023-03-23T19:15:31.453] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:15:31.461] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T19:15:31.463] [INFO] default - Loading command Cases.command.js
+[2023-03-23T19:15:31.465] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T19:15:31.466] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:15:31.469] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T19:15:31.470] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:15:31.474] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T19:15:31.476] [INFO] default - Loading command Reason.command.js
+[2023-03-23T19:15:31.479] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T19:15:31.480] [INFO] default - Loading command Unban.command.js
+[2023-03-23T19:15:31.482] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T19:15:31.483] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T19:15:31.487] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T19:15:31.488] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:15:31.492] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T19:15:31.495] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:15:31.502] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T19:15:31.503] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:15:31.507] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T19:15:31.508] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:15:31.511] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T19:15:31.512] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:15:31.516] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T19:15:31.519] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:15:31.523] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T19:15:31.524] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:15:31.527] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T19:15:31.528] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:15:31.532] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T19:15:31.534] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:15:31.537] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T19:15:31.537] [INFO] default - All modules and commands loaded
+[2023-03-23T19:15:31.573] [INFO] default - Loading module Kick.js
+[2023-03-23T19:15:31.574] [INFO] default - Loading module TicketManager.js
+[2023-03-23T19:15:31.575] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T19:15:31.576] [INFO] default - Loading module Logging.js
+[2023-03-23T19:15:31.580] [INFO] default - Loading module Mute.js
+[2023-03-23T19:15:31.581] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T19:15:31.586] [INFO] default - Loading module Warn.js
+[2023-03-23T19:15:34.592] [INFO] default - Updating cases...
+[2023-03-23T19:15:39.600] [INFO] default - Updating cases...
+[2023-03-23T19:15:44.609] [INFO] default - Updating cases...
+[2023-03-23T19:15:49.620] [INFO] default - Updating cases...
+[2023-03-23T19:15:54.621] [INFO] default - Updating cases...
+[2023-03-23T19:15:59.639] [INFO] default - Updating cases...
+[2023-03-23T19:16:04.641] [INFO] default - Updating cases...

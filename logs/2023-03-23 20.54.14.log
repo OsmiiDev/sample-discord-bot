@@ -1,0 +1,55 @@
+[2023-03-23T20:54:15.250] [INFO] default - Logged in as UnnamedBot#0862
+[2023-03-23T20:54:15.253] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T20:54:15.254] [INFO] default - Loading module Ban.js
+[2023-03-23T20:54:15.255] [INFO] default - Loading module ReactRoles.js
+[2023-03-23T20:54:15.256] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T20:54:15.257] [INFO] default - Loading module Verification.js
+[2023-03-23T20:54:15.259] [INFO] default - Loading command Ban.command.js
+[2023-03-23T20:54:15.270] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T20:54:15.271] [INFO] default - Loading command Cases.command.js
+[2023-03-23T20:54:15.275] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T20:54:15.276] [INFO] default - Loading command Embed.command.js
+[2023-03-23T20:54:15.280] [INFO] default - Loaded command CHAT_INPUT_embed
+[2023-03-23T20:54:15.281] [INFO] default - Loading command Kick.command.js
+[2023-03-23T20:54:15.284] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T20:54:15.285] [INFO] default - Loading command Mute.command.js
+[2023-03-23T20:54:15.290] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T20:54:15.291] [INFO] default - Loading command ReactionRoles.command.js
+[2023-03-23T20:54:15.297] [INFO] default - Loaded command CHAT_INPUT_reactroles
+[2023-03-23T20:54:15.299] [INFO] default - Loading command Reason.command.js
+[2023-03-23T20:54:15.300] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T20:54:15.301] [INFO] default - Loading command Unban.command.js
+[2023-03-23T20:54:15.304] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T20:54:15.306] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T20:54:15.308] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T20:54:15.309] [INFO] default - Loading command Warn.command.js
+[2023-03-23T20:54:15.314] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T20:54:15.316] [INFO] default - Loading command Ban.command.js
+[2023-03-23T20:54:15.321] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T20:54:15.322] [INFO] default - Loading command Kick.command.js
+[2023-03-23T20:54:15.325] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T20:54:15.327] [INFO] default - Loading command Mute.command.js
+[2023-03-23T20:54:15.332] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T20:54:15.333] [INFO] default - Loading command Warn.command.js
+[2023-03-23T20:54:15.335] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T20:54:15.337] [INFO] default - Loading command Ban.command.js
+[2023-03-23T20:54:15.340] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T20:54:15.341] [INFO] default - Loading command Kick.command.js
+[2023-03-23T20:54:15.345] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T20:54:15.347] [INFO] default - Loading command Mute.command.js
+[2023-03-23T20:54:15.350] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T20:54:15.351] [INFO] default - Loading command Warn.command.js
+[2023-03-23T20:54:15.354] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T20:54:15.355] [INFO] default - All modules and commands loaded
+[2023-03-23T20:54:15.395] [INFO] default - Loading module Kick.js
+[2023-03-23T20:54:15.397] [INFO] default - Loading module TicketManager.js
+[2023-03-23T20:54:15.399] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T20:54:15.401] [INFO] default - Loading module Logging.js
+[2023-03-23T20:54:15.404] [INFO] default - Loading module Mute.js
+[2023-03-23T20:54:15.405] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T20:54:15.408] [INFO] default - Loading module Warn.js
+[2023-03-23T20:54:18.416] [INFO] default - Updating cases...
+[2023-03-23T20:54:23.430] [INFO] default - Updating cases...
+[2023-03-23T20:54:28.432] [INFO] default - Updating cases...
+[2023-03-23T20:54:33.437] [INFO] default - Updating cases...
+[2023-03-23T20:54:38.448] [INFO] default - Updating cases...

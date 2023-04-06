@@ -1,0 +1,68 @@
+[2023-03-23T19:41:04.840] [INFO] default - Logged in as Academia#0862
+[2023-03-23T19:41:04.846] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T19:41:04.848] [INFO] default - Loading module Ban.js
+[2023-03-23T19:41:04.850] [INFO] default - Loading module ReactRoles.js
+[2023-03-23T19:41:04.851] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T19:41:04.853] [INFO] default - Loading module Verification.js
+[2023-03-23T19:41:04.855] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:41:04.870] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T19:41:04.872] [INFO] default - Loading command Cases.command.js
+[2023-03-23T19:41:04.877] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T19:41:04.878] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:41:04.885] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T19:41:04.887] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:41:04.894] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T19:41:04.897] [INFO] default - Loading command ReactionRoles.command.js
+[2023-03-23T19:41:04.905] [INFO] default - Loaded command CHAT_INPUT_reactroles
+[2023-03-23T19:41:04.908] [INFO] default - Loading command Reason.command.js
+[2023-03-23T19:41:04.912] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T19:41:04.913] [INFO] default - Loading command Unban.command.js
+[2023-03-23T19:41:04.915] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T19:41:04.916] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T19:41:04.919] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T19:41:04.921] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:41:04.930] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T19:41:04.932] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:41:04.936] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T19:41:04.938] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:41:04.942] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T19:41:04.943] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:41:04.947] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T19:41:04.948] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:41:04.950] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T19:41:04.951] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:41:04.954] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T19:41:04.956] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:41:04.958] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T19:41:04.960] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:41:04.962] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T19:41:04.964] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:41:04.966] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T19:41:04.966] [INFO] default - All modules and commands loaded
+[2023-03-23T19:41:04.995] [INFO] default - Loading module Kick.js
+[2023-03-23T19:41:04.996] [INFO] default - Loading module TicketManager.js
+[2023-03-23T19:41:04.997] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T19:41:04.998] [INFO] default - Loading module Logging.js
+[2023-03-23T19:41:05.000] [INFO] default - Loading module Mute.js
+[2023-03-23T19:41:05.001] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T19:41:05.005] [INFO] default - Loading module Warn.js
+[2023-03-23T19:41:08.005] [INFO] default - Updating cases...
+[2023-03-23T19:41:13.020] [INFO] default - Updating cases...
+[2023-03-23T19:41:18.036] [INFO] default - Updating cases...
+[2023-03-23T19:41:23.050] [INFO] default - Updating cases...
+[2023-03-23T19:41:28.060] [INFO] default - Updating cases...
+[2023-03-23T19:41:29.763] [INFO] default - /reactroles run by Osmii#0076
+[2023-03-23T19:41:33.070] [INFO] default - Updating cases...
+[2023-03-23T19:41:33.278] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'split')
+    at Object.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\reaction\ReactRoles.js:47:43)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\reaction\ReactRoles.js:14:58)
+[2023-03-23T19:41:38.073] [INFO] default - Updating cases...
+[2023-03-23T19:41:43.076] [INFO] default - Updating cases...
+[2023-03-23T19:41:48.080] [INFO] default - Updating cases...
+[2023-03-23T19:41:53.087] [INFO] default - Updating cases...
+[2023-03-23T19:41:58.093] [INFO] default - Updating cases...
+[2023-03-23T19:42:03.114] [INFO] default - Updating cases...
+[2023-03-23T19:42:08.122] [INFO] default - Updating cases...
+[2023-03-23T19:42:13.128] [INFO] default - Updating cases...
+[2023-03-23T19:42:18.146] [INFO] default - Updating cases...

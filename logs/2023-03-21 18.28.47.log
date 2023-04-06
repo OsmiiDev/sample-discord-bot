@@ -1,0 +1,17 @@
+[2023-03-21T18:28:48.034] [INFO] default - Logged in as Academia#0862
+[2023-03-21T18:28:48.041] [INFO] default - Loading command Chess.command.js
+[2023-03-21T18:28:48.117] [INFO] default - Loaded command CHAT_INPUT_chess
+[2023-03-21T18:28:48.120] [INFO] default - Loading command Ban.command.js
+[2023-03-21T18:28:48.127] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-21T18:28:48.129] [INFO] default - Loading command Kick.command.js
+[2023-03-21T18:28:48.135] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-21T18:28:48.139] [INFO] default - Loading command Mute.command.js
+[2023-03-21T18:28:48.151] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-21T18:28:48.153] [INFO] default - Loading command Warn.command.js
+[2023-03-21T18:28:48.161] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-21T18:28:48.163] [INFO] default - All modules and commands loaded
+[2023-03-21T18:28:49.333] [INFO] default - [Mute] run by Osmii#0076
+[2023-03-21T18:29:03.131] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'moderation_mutedRole')
+    at Mute.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\moderation\Mute.js:73:64)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\moderation\Mute.js:5:58)

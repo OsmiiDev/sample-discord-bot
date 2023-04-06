@@ -1,0 +1,194 @@
+[2023-03-23T17:12:50.422] [INFO] default - Logged in as Academia#0862
+[2023-03-23T17:12:50.426] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T17:12:50.428] [INFO] default - Loading module Ban.js
+[2023-03-23T17:12:50.429] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T17:12:50.430] [INFO] default - Loading module Verification.js
+[2023-03-23T17:12:50.432] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:12:50.448] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T17:12:50.449] [INFO] default - Loading command Cases.command.js
+[2023-03-23T17:12:50.455] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T17:12:50.457] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:12:50.461] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T17:12:50.462] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:12:50.466] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T17:12:50.468] [INFO] default - Loading command Reason.command.js
+[2023-03-23T17:12:50.471] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T17:12:50.473] [INFO] default - Loading command Unban.command.js
+[2023-03-23T17:12:50.478] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T17:12:50.480] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T17:12:50.483] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T17:12:50.484] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:12:50.492] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T17:12:50.494] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:12:50.502] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T17:12:50.504] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:12:50.509] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T17:12:50.511] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:12:50.515] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T17:12:50.517] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:12:50.521] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T17:12:50.523] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:12:50.527] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T17:12:50.528] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:12:50.531] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T17:12:50.532] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:12:50.536] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T17:12:50.537] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:12:50.541] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T17:12:50.542] [INFO] default - All modules and commands loaded
+[2023-03-23T17:12:50.576] [INFO] default - Loading module Kick.js
+[2023-03-23T17:12:50.577] [INFO] default - Loading module TicketManager.js
+[2023-03-23T17:12:50.578] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T17:12:50.580] [INFO] default - Loading module Logging.js
+[2023-03-23T17:12:50.584] [INFO] default - Loading module Mute.js
+[2023-03-23T17:12:50.585] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T17:12:50.591] [INFO] default - Loading module Warn.js
+[2023-03-23T17:12:53.595] [INFO] default - Updating cases...
+[2023-03-23T17:12:58.613] [INFO] default - Updating cases...
+[2023-03-23T17:12:58.942] [ERROR] default - DiscordAPIError[50035]: Invalid Form Body
+components[0].components[0].style[BASE_TYPE_REQUIRED]: This field is required
+components[0].components[1].style[BASE_TYPE_REQUIRED]: This field is required
+    at SequentialHandler.runRequest (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:659:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.queueRequest (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:458:14)
+    at async REST.request (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:902:22)
+    at async TextChannel.send (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:175:15) {
+  requestBody: {
+    files: [],
+    json: {
+      content: '',
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: [Array],
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined,
+      thread_name: undefined
+    }
+  },
+  rawError: {
+    code: 50035,
+    errors: { components: [Object] },
+    message: 'Invalid Form Body'
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/channels/1088577206625775636/messages'
+}
+[2023-03-23T17:13:00.701] [ERROR] default - CombinedPropertyError (8)
+  Received one or more errors
+
+  input[3]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[4]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[5]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[6]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[7]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[8]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[9]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+  input[10]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.name
+  |   | ValidationError > s.string
+  |   |   Expected a string primitive
+  |   | 
+  |   |   Received:
+  |   |   | undefined
+
+    at ArrayValidator.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:427:70)
+    at ArrayValidator.parse (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:113:88)
+    at EmbedBuilder.addFields (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:191:31)
+    at VerificationManager.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:62:26)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\verification\VerificationManager.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-03-23T17:13:03.623] [INFO] default - Updating cases...
+[2023-03-23T17:13:08.626] [INFO] default - Updating cases...
+[2023-03-23T17:13:13.640] [INFO] default - Updating cases...
+[2023-03-23T17:13:18.645] [INFO] default - Updating cases...
+[2023-03-23T17:13:23.651] [INFO] default - Updating cases...
+[2023-03-23T17:13:28.653] [INFO] default - Updating cases...
+[2023-03-23T17:13:33.670] [INFO] default - Updating cases...
+[2023-03-23T17:13:38.674] [INFO] default - Updating cases...
+[2023-03-23T17:13:43.683] [INFO] default - Updating cases...
+[2023-03-23T17:13:48.697] [INFO] default - Updating cases...
+[2023-03-23T17:13:53.724] [INFO] default - Updating cases...
+[2023-03-23T17:13:58.740] [INFO] default - Updating cases...
+[2023-03-23T17:14:03.751] [INFO] default - Updating cases...

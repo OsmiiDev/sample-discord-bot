@@ -1,0 +1,17 @@
+[2023-03-21T21:51:09.806] [INFO] default - Logged in as Academia#0862
+[2023-03-21T21:51:09.811] [INFO] default - Loading module Ban.js
+[2023-03-21T21:51:09.814] [INFO] default - Loading command Ban.command.js
+[2023-03-21T21:51:09.822] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-21T21:51:09.824] [INFO] default - Loading command Kick.command.js
+[2023-03-21T21:51:09.829] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-21T21:51:09.831] [INFO] default - Loading command Mute.command.js
+[2023-03-21T21:51:09.835] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-21T21:51:09.836] [INFO] default - Loading command Warn.command.js
+[2023-03-21T21:51:09.841] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-21T21:51:09.843] [INFO] default - All modules and commands loaded
+[2023-03-21T21:51:09.848] [INFO] default - Loading module Kick.js
+[2023-03-21T21:51:09.850] [INFO] default - Loading module Logging.js
+[2023-03-21T21:51:09.852] [INFO] default - Loading module Mute.js
+[2023-03-21T21:51:09.853] [INFO] default - Loading module UpdateCase.js
+[2023-03-21T21:51:09.858] [INFO] default - Updating cases...
+[2023-03-21T21:51:09.862] [INFO] default - Loading module Warn.js

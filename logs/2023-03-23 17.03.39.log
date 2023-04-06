@@ -1,0 +1,57 @@
+[2023-03-23T17:03:40.813] [INFO] default - Logged in as Academia#0862
+[2023-03-23T17:03:40.818] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T17:03:40.819] [INFO] default - Loading module Ban.js
+[2023-03-23T17:03:40.820] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T17:03:40.821] [INFO] default - Loading module Verification.js
+[2023-03-23T17:03:40.823] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:03:40.834] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T17:03:40.836] [INFO] default - Loading command Cases.command.js
+[2023-03-23T17:03:40.840] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T17:03:40.842] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:03:40.845] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T17:03:40.846] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:03:40.851] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T17:03:40.852] [INFO] default - Loading command Reason.command.js
+[2023-03-23T17:03:40.857] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T17:03:40.858] [INFO] default - Loading command Unban.command.js
+[2023-03-23T17:03:40.861] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T17:03:40.863] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T17:03:40.868] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T17:03:40.870] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:03:40.878] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T17:03:40.882] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:03:40.887] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T17:03:40.890] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:03:40.894] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T17:03:40.896] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:03:40.902] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T17:03:40.904] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:03:40.908] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T17:03:40.910] [INFO] default - Loading command Ban.command.js
+[2023-03-23T17:03:40.914] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T17:03:40.915] [INFO] default - Loading command Kick.command.js
+[2023-03-23T17:03:40.917] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T17:03:40.918] [INFO] default - Loading command Mute.command.js
+[2023-03-23T17:03:40.923] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T17:03:40.925] [INFO] default - Loading command Warn.command.js
+[2023-03-23T17:03:40.929] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T17:03:40.929] [INFO] default - All modules and commands loaded
+[2023-03-23T17:03:40.962] [INFO] default - Loading module Kick.js
+[2023-03-23T17:03:40.964] [INFO] default - Loading module TicketManager.js
+[2023-03-23T17:03:40.966] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T17:03:40.968] [INFO] default - Loading module Logging.js
+[2023-03-23T17:03:40.978] [INFO] default - Loading module Mute.js
+[2023-03-23T17:03:40.979] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T17:03:40.983] [INFO] default - Loading module Warn.js
+[2023-03-23T17:03:43.989] [INFO] default - Updating cases...
+[2023-03-23T17:03:48.992] [INFO] default - Updating cases...
+[2023-03-23T17:03:53.998] [INFO] default - Updating cases...
+[2023-03-23T17:03:59.001] [INFO] default - Updating cases...
+[2023-03-23T17:04:04.006] [INFO] default - Updating cases...
+[2023-03-23T17:04:09.010] [INFO] default - Updating cases...
+[2023-03-23T17:04:14.015] [INFO] default - Updating cases...
+[2023-03-23T17:04:19.017] [INFO] default - Updating cases...
+[2023-03-23T17:04:24.032] [INFO] default - Updating cases...
+[2023-03-23T17:04:29.034] [INFO] default - Updating cases...
+[2023-03-23T17:04:34.037] [INFO] default - Updating cases...
+[2023-03-23T17:04:39.044] [INFO] default - Updating cases...

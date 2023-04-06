@@ -1,0 +1,36 @@
+[2023-03-21T20:16:25.250] [INFO] default - Logged in as Academia#0862
+[2023-03-21T20:16:25.260] [INFO] default - Loading command Chess.command.js
+[2023-03-21T20:16:25.320] [INFO] default - Loaded command CHAT_INPUT_chess
+[2023-03-21T20:16:25.321] [INFO] default - Loading command Ban.command.js
+[2023-03-21T20:16:25.329] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-21T20:16:25.331] [INFO] default - Loading command Kick.command.js
+[2023-03-21T20:16:25.337] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-21T20:16:25.339] [INFO] default - Loading command Mute.command.js
+[2023-03-21T20:16:25.346] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-21T20:16:25.348] [INFO] default - Loading command Warn.command.js
+[2023-03-21T20:16:25.355] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-21T20:16:25.356] [INFO] default - All modules and commands loaded
+[2023-03-21T20:16:29.530] [INFO] default - [Ban] run by Osmii#0076
+[2023-03-21T20:16:33.947] [ERROR] default - CombinedPropertyError (1)
+  Received one or more errors
+
+  input[0]
+  | CombinedPropertyError (1)
+  |   Received one or more errors
+  | 
+  |   input.value
+  |   | ExpectedConstraintError > s.string.lengthGreaterThanOrEqual
+  |   |   Invalid string length
+  |   | 
+  |   |   Expected: expected.length >= 1
+  |   | 
+  |   |   Received:
+  |   |   | ''
+
+    at ArrayValidator.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:427:70)
+    at ArrayValidator.parse (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:113:88)
+    at EmbedBuilder.addFields (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:191:31)
+    at Ban.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\moderation\Ban.js:82:34)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\modules\moderation\Ban.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

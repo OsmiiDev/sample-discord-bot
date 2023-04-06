@@ -1,0 +1,58 @@
+[2023-03-23T19:25:20.547] [INFO] default - Logged in as Academia#0862
+[2023-03-23T19:25:20.554] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T19:25:20.556] [INFO] default - Loading module Ban.js
+[2023-03-23T19:25:20.558] [INFO] default - Loading module ReactRoles.js
+[2023-03-23T19:25:20.559] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T19:25:20.560] [INFO] default - Loading module Verification.js
+[2023-03-23T19:25:20.562] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:25:20.577] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T19:25:20.579] [INFO] default - Loading command Cases.command.js
+[2023-03-23T19:25:20.582] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T19:25:20.584] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:25:20.590] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T19:25:20.591] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:25:20.595] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T19:25:20.596] [INFO] default - Loading command ReactionRoles.command.js
+[2023-03-23T19:25:20.603] [INFO] default - Loaded command CHAT_INPUT_reactroles
+[2023-03-23T19:25:20.604] [INFO] default - Loading command Reason.command.js
+[2023-03-23T19:25:20.607] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T19:25:20.608] [INFO] default - Loading command Unban.command.js
+[2023-03-23T19:25:20.611] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T19:25:20.612] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T19:25:20.615] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T19:25:20.616] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:25:20.623] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T19:25:20.627] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:25:20.633] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T19:25:20.635] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:25:20.640] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T19:25:20.642] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:25:20.646] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T19:25:20.647] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:25:20.651] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T19:25:20.654] [INFO] default - Loading command Ban.command.js
+[2023-03-23T19:25:20.658] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T19:25:20.660] [INFO] default - Loading command Kick.command.js
+[2023-03-23T19:25:20.662] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T19:25:20.664] [INFO] default - Loading command Mute.command.js
+[2023-03-23T19:25:20.668] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T19:25:20.669] [INFO] default - Loading command Warn.command.js
+[2023-03-23T19:25:20.674] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T19:25:20.675] [INFO] default - All modules and commands loaded
+[2023-03-23T19:25:20.708] [INFO] default - Loading module Kick.js
+[2023-03-23T19:25:20.709] [INFO] default - Loading module TicketManager.js
+[2023-03-23T19:25:20.711] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T19:25:20.714] [INFO] default - Loading module Logging.js
+[2023-03-23T19:25:20.717] [INFO] default - Loading module Mute.js
+[2023-03-23T19:25:20.719] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T19:25:20.725] [INFO] default - Loading module Warn.js
+[2023-03-23T19:25:23.739] [INFO] default - Updating cases...
+[2023-03-23T19:25:28.747] [INFO] default - Updating cases...
+[2023-03-23T19:25:33.759] [INFO] default - Updating cases...
+[2023-03-23T19:25:38.056] [INFO] default - /reactroles run by Osmii#0076
+[2023-03-23T19:25:38.772] [INFO] default - Updating cases...
+[2023-03-23T19:25:43.780] [INFO] default - Updating cases...
+[2023-03-23T19:25:48.794] [INFO] default - Updating cases...
+[2023-03-23T19:25:52.626] [INFO] default - /reactroles run by Osmii#0076
+[2023-03-23T19:25:53.807] [INFO] default - Updating cases...
+[2023-03-23T19:25:58.813] [INFO] default - Updating cases...

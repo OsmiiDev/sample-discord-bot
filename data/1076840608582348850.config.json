@@ -1,0 +1,66 @@
+{
+  "moderation_modlogChannel": "1088639015382700112",
+  "moderation_mutedRole": "1078979817074073620",
+  "tickets_ticketChannel": "1088639227077595156",
+  "verification_questions": [
+    "Where did you find this server?",
+    "Why do you want to join?",
+    "How old are you?",
+    "Are you interested in Warrior Cats? If so, who's your favorite character?",
+    "Do you have any warrior cats OCs? If so, describe them!",
+    "Tell us the password in the rules.",
+    "Tell us a bit about yourself!"
+  ],
+  "verification_verificationChannel": "1076863668546973817",
+  "verification_verifiedRole": "1076880013342814228",
+  "verification_welcomeChannel": "1076840609102438493",
+  "verification_welcomeMessage": {
+    "content": "<@&1079059105274151052>",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "Welcome, ${user}!",
+        "description": "We hope We hope you enjoy your stay in the server, and be sure to check <#1076891899824181281> and introduce yourself in  <#1076944041821880430>!",
+        "color": 8246268,
+        "image": {
+          "url": "https://media.tenor.com/EcJ_0s4vVkUAAAAd/warrior-cats-firestar.gif",
+          "height": 1200,
+          "width": 1600
+        }
+      }
+    ]
+  },
+  "welcome_channel": "1076862154310950912",
+  "welcome_message": {
+    "content": "Welcome ${usermention}! You are member #${membercount}!",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "Welcome to ${servername}, ${user}!",
+        "description": "To follow the stars' path, go to <#1076863640860364902> \nMay Starclan's force be with you. -<:Starclan:1076882478880534539>",
+        "color": 8246268,
+        "image": {
+          "url": "https://media.tenor.com/g2brG5-36EkAAAAd/starclan-cats.gif?width=1600&height=1200",
+          "height": 1200,
+          "width": 1600
+        }
+      }
+    ]
+  },
+  "goodbye_channel": "1076862166151483503",
+  "goodbye_message": {
+    "content": "Goodbye, ${usermention}.",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "Those who do not follow the path of the stars are enemies. Farewell, ${user}.",
+        "color": 10033947,
+        "image": {
+          "url": "https://media.tenor.com/09ztyey828AAAAAC/warrior-cats-nightrizer.gif?width=1245&height=700",
+          "height": 1245,
+          "width": 700
+        }
+      }
+    ]
+  }
+}

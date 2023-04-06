@@ -1,0 +1,31 @@
+{
+  "ignorePatterns": ["**/*.config.js"],
+  "extends": ["eslint:recommended", "google", "plugin:@typescript-eslint/recommended"],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {"ecmaVersion": "latest", "sourceType": "module"},
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/indent": [2, 2],
+    "@typescript-eslint/no-non-null-assertion": [0],
+    "@typescript-eslint/no-unused-vars": [2, {"args": "none", "varsIgnorePattern": "^_"}],
+    "@typescript-eslint/triple-slash-reference": [0],
+    "indent": [0],
+    "linebreak-style": [2, "unix"],
+    "max-len": [2, 200],
+    "new-cap": [0],
+    "no-invalid-this": [0],
+    "object-curly-newline": [2, {
+      "ImportDeclaration": "never",
+      "ExportDeclaration": "never",
+      "ObjectExpression": {"multiline": true, "minProperties": 2},
+      "ObjectPattern": {"multiline": true, "minProperties": 2} 
+    }],
+    "object-property-newline": [2, {"allowAllPropertiesOnSameLine": false}],
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+    "sort-keys": [2, "asc", {"caseSensitive": false, "natural": true}],
+    "space-infix-ops": [2, {"int32Hint": false}],
+    "spaced-comment": [2, "always", {"markers": ["/"]}]
+  }
+}

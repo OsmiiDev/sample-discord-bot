@@ -1,0 +1,39 @@
+[2023-03-23T02:07:36.690] [INFO] default - Logged in as Academia#0862
+[2023-03-23T02:07:36.695] [INFO] default - Loading module Ban.js
+[2023-03-23T02:07:36.697] [INFO] default - Loading command Ban.command.js
+[2023-03-23T02:07:36.709] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T02:07:36.710] [INFO] default - Loading command Cases.command.js
+[2023-03-23T02:07:36.712] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T02:07:36.714] [INFO] default - Loading command Kick.command.js
+[2023-03-23T02:07:36.719] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T02:07:36.720] [INFO] default - Loading command Mute.command.js
+[2023-03-23T02:07:36.725] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T02:07:36.726] [INFO] default - Loading command Unban.command.js
+[2023-03-23T02:07:36.728] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T02:07:36.729] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T02:07:36.732] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T02:07:36.733] [INFO] default - Loading command Warn.command.js
+[2023-03-23T02:07:36.738] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T02:07:36.740] [INFO] default - Loading command Ban.command.js
+[2023-03-23T02:07:36.746] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T02:07:36.749] [INFO] default - Loading command Kick.command.js
+[2023-03-23T02:07:36.753] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T02:07:36.755] [INFO] default - Loading command Mute.command.js
+[2023-03-23T02:07:36.760] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T02:07:36.762] [INFO] default - Loading command Warn.command.js
+[2023-03-23T02:07:36.766] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T02:07:36.768] [INFO] default - Loading command Ban.command.js
+[2023-03-23T02:07:36.772] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T02:07:36.774] [INFO] default - Loading command Kick.command.js
+[2023-03-23T02:07:36.779] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T02:07:36.780] [INFO] default - Loading command Mute.command.js
+[2023-03-23T02:07:36.783] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T02:07:36.784] [INFO] default - Loading command Warn.command.js
+[2023-03-23T02:07:36.787] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T02:07:36.788] [INFO] default - All modules and commands loaded
+[2023-03-23T02:07:36.799] [INFO] default - Loading module Kick.js
+[2023-03-23T02:07:36.801] [INFO] default - Loading module Logging.js
+[2023-03-23T02:07:36.803] [INFO] default - Loading module Mute.js
+[2023-03-23T02:07:36.804] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T02:07:36.810] [INFO] default - Loading module Warn.js
+[2023-03-23T02:07:37.600] [INFO] default - /cases run by Osmii#0076

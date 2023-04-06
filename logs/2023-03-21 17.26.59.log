@@ -1,0 +1,27 @@
+[2023-03-21T17:27:00.400] [INFO] default - Logged in as Academia#0862
+[2023-03-21T17:27:00.410] [INFO] default - Loading command Chess.command.js
+[2023-03-21T17:27:00.465] [INFO] default - Loaded command CHAT_INPUT_chess
+[2023-03-21T17:27:00.468] [INFO] default - Loading command Ban.command.js
+[2023-03-21T17:27:00.480] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-21T17:27:00.485] [INFO] default - Loading command Kick.command.js
+[2023-03-21T17:27:00.495] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-21T17:27:00.498] [INFO] default - Loading command Mute.command.js
+[2023-03-21T17:27:00.505] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-21T17:27:00.508] [INFO] default - Loading command Warn.command.js
+[2023-03-21T17:27:00.513] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-21T17:27:00.515] [INFO] default - All modules and commands loaded
+[2023-03-21T17:27:07.966] [INFO] default - [Warn] run by Osmii#0076
+[2023-03-21T17:27:19.754] [INFO] default - [Warn] run by Osmii#0076
+[2023-03-21T17:27:22.532] [ERROR] default - Error: SQLITE_ERROR: table warns has no column named moderator_id
+--> in Database#prepare('INSERT INTO warns (warn_id, user_id, moderator_id, reason, timestamp) VALUES (?, ?, ?, ?, ?)', [Function (anonymous)])
+    at C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\sqlite\build\Database.js:235:34
+    at new Promise (<anonymous>)
+    at Database.prepare (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\sqlite\build\Database.js:233:16)
+    at Warn.<anonymous> (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\commands\message-context\Warn.command.js:112:62)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Osmii\Desktop\Personal\discord bots\verification\build\commands\message-context\Warn.command.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errno: 1,
+  code: 'SQLITE_ERROR',
+  __augmented: true
+}

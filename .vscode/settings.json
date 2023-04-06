@@ -1,0 +1,57 @@
+{
+    "background.enabled": true,
+    "background.fullscreen": {
+        "image": "file://C:/Users/Osmii/Pictures/Wallpaper.png",
+        "opacity": 0.95,
+        "size": "cover",
+        "interval": 0
+    },
+    "background.useDefault": false,
+    "background.useFront": false,
+    "betterFolding.foldClosingBrackets": true,
+    "betterFolding.showFoldedBodyLinesCount": true,
+    "betterFolding.showFoldedBrackets": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.defaultFoldingRangeProvider": "MohammadBaqer.better-folding",
+    "editor.foldingStrategy": "auto",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.tabSize": 2,
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+    "files.eol": "\n",
+    "tailwindCSS.emmetCompletions": true,
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "transparent",
+            "color": "#4488ff",
+            "fontWeight": "bold",
+            "text": "@TODO"
+        },
+        {
+            "backgroundColor": "transparent",
+            "color": "#ffcc44",
+            "fontWeight": "bold",
+            "text": "@IMPORTANT"
+        },
+        {
+            "backgroundColor": "transparent",
+            "color": "#ff4488",
+            "fontWeight": "bold",
+            "text": "@ISSUE"
+        }
+    ],
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

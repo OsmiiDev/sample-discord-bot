@@ -1,0 +1,68 @@
+[2023-03-23T18:20:12.194] [INFO] default - Logged in as Academia#0862
+[2023-03-23T18:20:12.199] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T18:20:12.201] [INFO] default - Loading module Ban.js
+[2023-03-23T18:20:12.205] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T18:20:12.206] [INFO] default - Loading module Verification.js
+[2023-03-23T18:20:12.209] [INFO] default - Loading command Ban.command.js
+[2023-03-23T18:20:12.226] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T18:20:12.227] [INFO] default - Loading command Cases.command.js
+[2023-03-23T18:20:12.231] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T18:20:12.233] [INFO] default - Loading command Kick.command.js
+[2023-03-23T18:20:12.242] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T18:20:12.244] [INFO] default - Loading command Mute.command.js
+[2023-03-23T18:20:12.250] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T18:20:12.255] [INFO] default - Loading command Reason.command.js
+[2023-03-23T18:20:12.259] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T18:20:12.260] [INFO] default - Loading command Unban.command.js
+[2023-03-23T18:20:12.264] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T18:20:12.265] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T18:20:12.271] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T18:20:12.275] [INFO] default - Loading command Warn.command.js
+[2023-03-23T18:20:12.289] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T18:20:12.293] [INFO] default - Loading command Ban.command.js
+[2023-03-23T18:20:12.308] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T18:20:12.311] [INFO] default - Loading command Kick.command.js
+[2023-03-23T18:20:12.314] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T18:20:12.317] [INFO] default - Loading command Mute.command.js
+[2023-03-23T18:20:12.324] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T18:20:12.325] [INFO] default - Loading command Warn.command.js
+[2023-03-23T18:20:12.331] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T18:20:12.335] [INFO] default - Loading command Ban.command.js
+[2023-03-23T18:20:12.346] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T18:20:12.348] [INFO] default - Loading command Kick.command.js
+[2023-03-23T18:20:12.355] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T18:20:12.360] [INFO] default - Loading command Mute.command.js
+[2023-03-23T18:20:12.364] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T18:20:12.365] [INFO] default - Loading command Warn.command.js
+[2023-03-23T18:20:12.372] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T18:20:12.373] [INFO] default - All modules and commands loaded
+[2023-03-23T18:20:12.425] [INFO] default - Loading module Kick.js
+[2023-03-23T18:20:12.427] [INFO] default - Loading module TicketManager.js
+[2023-03-23T18:20:12.430] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T18:20:12.434] [INFO] default - Loading module Logging.js
+[2023-03-23T18:20:12.442] [INFO] default - Loading module Mute.js
+[2023-03-23T18:20:12.446] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T18:20:12.452] [INFO] default - Loading module Warn.js
+[2023-03-23T18:20:14.748] [ERROR] default - ValidationError > s.string
+  Expected a string primitive
+
+  Received:
+  | undefined
+
+    at StringValidator.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:1672:70)
+    at StringValidator.parse (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@sapphire\shapeshift\dist\index.js:113:88)
+    at validateRequiredParameters (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:643:18)
+    at TextInputBuilder.toJSON (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:685:5)
+    at C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:737:64
+    at Array.map (<anonymous>)
+    at ActionRowBuilder.toJSON (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:737:35)
+    at C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:792:64
+    at Array.map (<anonymous>)
+    at ModalBuilder.toJSON (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\builders\dist\index.js:792:35)
+[2023-03-23T18:20:15.465] [INFO] default - Updating cases...
+[2023-03-23T18:20:20.473] [INFO] default - Updating cases...
+[2023-03-23T18:20:25.480] [INFO] default - Updating cases...
+[2023-03-23T18:20:30.494] [INFO] default - Updating cases...
+[2023-03-23T18:20:35.505] [INFO] default - Updating cases...
+[2023-03-23T18:20:40.511] [INFO] default - Updating cases...
+[2023-03-23T18:20:45.519] [INFO] default - Updating cases...

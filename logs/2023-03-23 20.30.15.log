@@ -1,0 +1,96 @@
+[2023-03-23T20:30:15.804] [INFO] default - Logged in as Academia#0862
+[2023-03-23T20:30:15.807] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-03-23T20:30:15.808] [INFO] default - Loading module Ban.js
+[2023-03-23T20:30:15.809] [INFO] default - Loading module ReactRoles.js
+[2023-03-23T20:30:15.810] [INFO] default - Loading module RelayHandler.js
+[2023-03-23T20:30:15.811] [INFO] default - Loading module Verification.js
+[2023-03-23T20:30:15.812] [INFO] default - Loading command Ban.command.js
+[2023-03-23T20:30:15.820] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-03-23T20:30:15.820] [INFO] default - Loading command Cases.command.js
+[2023-03-23T20:30:15.822] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-03-23T20:30:15.823] [INFO] default - Loading command Embed.command.js
+[2023-03-23T20:30:15.826] [INFO] default - Loaded command CHAT_INPUT_embed
+[2023-03-23T20:30:15.827] [INFO] default - Loading command Kick.command.js
+[2023-03-23T20:30:15.830] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-03-23T20:30:15.831] [INFO] default - Loading command Mute.command.js
+[2023-03-23T20:30:15.834] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-03-23T20:30:15.835] [INFO] default - Loading command ReactionRoles.command.js
+[2023-03-23T20:30:15.839] [INFO] default - Loaded command CHAT_INPUT_reactroles
+[2023-03-23T20:30:15.840] [INFO] default - Loading command Reason.command.js
+[2023-03-23T20:30:15.842] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-03-23T20:30:15.843] [INFO] default - Loading command Unban.command.js
+[2023-03-23T20:30:15.846] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-03-23T20:30:15.848] [INFO] default - Loading command Unmute.command.js
+[2023-03-23T20:30:15.850] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-03-23T20:30:15.851] [INFO] default - Loading command Warn.command.js
+[2023-03-23T20:30:15.854] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-03-23T20:30:15.855] [INFO] default - Loading command Ban.command.js
+[2023-03-23T20:30:15.859] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-03-23T20:30:15.861] [INFO] default - Loading command Kick.command.js
+[2023-03-23T20:30:15.864] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-03-23T20:30:15.865] [INFO] default - Loading command Mute.command.js
+[2023-03-23T20:30:15.869] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-03-23T20:30:15.870] [INFO] default - Loading command Warn.command.js
+[2023-03-23T20:30:15.874] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-03-23T20:30:15.875] [INFO] default - Loading command Ban.command.js
+[2023-03-23T20:30:15.881] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-03-23T20:30:15.882] [INFO] default - Loading command Kick.command.js
+[2023-03-23T20:30:15.885] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-03-23T20:30:15.886] [INFO] default - Loading command Mute.command.js
+[2023-03-23T20:30:15.888] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-03-23T20:30:15.889] [INFO] default - Loading command Warn.command.js
+[2023-03-23T20:30:15.892] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-03-23T20:30:15.893] [INFO] default - All modules and commands loaded
+[2023-03-23T20:30:15.934] [INFO] default - Loading module Kick.js
+[2023-03-23T20:30:15.935] [INFO] default - Loading module TicketManager.js
+[2023-03-23T20:30:15.937] [INFO] default - Loading module VerificationManager.js
+[2023-03-23T20:30:15.939] [INFO] default - Loading module Logging.js
+[2023-03-23T20:30:15.942] [INFO] default - Loading module Mute.js
+[2023-03-23T20:30:15.943] [INFO] default - Loading module UpdateCase.js
+[2023-03-23T20:30:15.949] [INFO] default - Loading module Warn.js
+[2023-03-23T20:30:18.962] [INFO] default - Updating cases...
+[2023-03-23T20:30:23.696] [INFO] default - /embed run by Osmii#0076
+[2023-03-23T20:30:23.927] [INFO] default - DiscordAPIError[50035]: Invalid Form Body
+data.embeds[0].color[NUMBER_TYPE_COERCE]: Value "#00b0f4" is not int.
+    at SequentialHandler.runRequest (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:659:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.queueRequest (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:458:14)
+    at async REST.request (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\@discordjs\rest\dist\index.js:902:22)
+    at async ChatInputCommandInteraction.reply (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:111:5) {
+  requestBody: { files: [], json: { type: 4, data: [Object] } },
+  rawError: {
+    code: 50035,
+    errors: { data: [Object] },
+    message: 'Invalid Form Body'
+  },
+  code: 50035,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord.com/api/v10/interactions/1088635896758288424/aW50ZXJhY3Rpb246MTA4ODYzNTg5Njc1ODI4ODQyNDowQWVtM0NwTHZKM2lCYXdOdVBIRVRPQXRRN1dCYkp1ZnNveTFJOXd4Y1RpSHhZS0N6cm14QUx3R3RsWEd6NTJWT0tPOGJCeEg1YUtmTncxWGl4bllWUlBBeXBqT2IzVWV1NjF6RTJqR2pYM1pFREFvZVAzbHpJdHJBdXFMejVoSA/callback'
+}
+[2023-03-23T20:30:23.970] [INFO] default - Updating cases...
+[2023-03-23T20:30:28.974] [INFO] default - Updating cases...
+[2023-03-23T20:30:33.985] [INFO] default - Updating cases...
+[2023-03-23T20:30:39.004] [INFO] default - Updating cases...
+[2023-03-23T20:30:44.018] [INFO] default - Updating cases...
+[2023-03-23T20:30:49.020] [INFO] default - Updating cases...
+[2023-03-23T20:30:54.022] [INFO] default - Updating cases...
+[2023-03-23T20:30:59.030] [INFO] default - Updating cases...
+[2023-03-23T20:31:04.045] [INFO] default - Updating cases...
+[2023-03-23T20:31:09.057] [INFO] default - Updating cases...
+[2023-03-23T20:31:14.072] [INFO] default - Updating cases...
+[2023-03-23T20:31:19.072] [INFO] default - Updating cases...
+[2023-03-23T20:31:24.084] [INFO] default - Updating cases...
+[2023-03-23T20:31:29.100] [INFO] default - Updating cases...
+[2023-03-23T20:31:34.116] [INFO] default - Updating cases...
+[2023-03-23T20:31:39.132] [INFO] default - Updating cases...
+[2023-03-23T20:31:44.145] [INFO] default - Updating cases...
+[2023-03-23T20:31:49.158] [INFO] default - Updating cases...
+[2023-03-23T20:31:54.177] [INFO] default - Updating cases...
+[2023-03-23T20:31:59.198] [INFO] default - Updating cases...
+[2023-03-23T20:32:04.207] [INFO] default - Updating cases...
+[2023-03-23T20:32:09.222] [INFO] default - Updating cases...
+[2023-03-23T20:32:14.225] [INFO] default - Updating cases...
+[2023-03-23T20:32:19.244] [INFO] default - Updating cases...
+[2023-03-23T20:32:24.248] [INFO] default - Updating cases...
+[2023-03-23T20:32:29.258] [INFO] default - Updating cases...
