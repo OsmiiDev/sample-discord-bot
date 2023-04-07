@@ -18,11 +18,14 @@ export default class Verification {
   @listener('interactionCreate')
   static async create(interaction: ButtonInteraction) {
     if (!interaction.guild || !interaction.isButton() || interaction.customId !== 'verification_begin') return;
+
+    console.log('Reached this point!!');
     const questions = DataUtils.config.verification_questions;
     const id = randomUUID();
 
     // Send DMs
     const dm = await interaction.user.createDM().catch(() => null);
+    if (!dm) return;
     const message = await dm?.send({
       components: [
         new ActionRowBuilder<ButtonBuilder>()

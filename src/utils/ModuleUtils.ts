@@ -32,6 +32,9 @@ export const listener = (event: keyof ClientEvents, ...eventFilters: IFilter[]) 
         if (result === FilterResult.ERR) return logger.error(`Error in filter for event ${event}`);
       }
 
+      logger.log(event);
+      // console.log(args);
+
       descriptor.value(...args);
     });
   };

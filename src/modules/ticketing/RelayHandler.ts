@@ -13,7 +13,7 @@ import {ActionRowBuilder,
   TextInputBuilder,
   TextInputStyle,
   ThreadChannel,
-  WebhookCreateMessageOptions} from 'discord.js';
+  WebhookMessageCreateOptions} from 'discord.js';
 import {DataUtils} from '../../utils/DataUtils';
 import {listener} from '../../utils/ModuleUtils';
 import {client} from '../..';
@@ -47,7 +47,7 @@ export default class RelayHandler {
       if (!webhook) {
         const channel = await guild?.channels.fetch(ticketData.channel_id);
         console.log(channel);
-        if (channel?.isTextBased() && !channel.isThread() && !channel.isVoiceBased()) {
+        if (channel && channel.isTextBased() && !channel.isThread() && !channel.isVoiceBased()) {
           console.log('here');
           const hook = await channel?.createWebhook({
             avatar: client.user?.avatarURL() ?? undefined,
@@ -58,7 +58,7 @@ export default class RelayHandler {
         }
       }
 
-      const body: MessagePayload | WebhookCreateMessageOptions = {
+      const body: MessagePayload | WebhookMessageCreateOptions = {
         avatarURL: message.author.avatarURL() ?? undefined,
         content: message.content,
         embeds: message.embeds,

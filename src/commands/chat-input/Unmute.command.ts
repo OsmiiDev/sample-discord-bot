@@ -9,7 +9,7 @@ export default class UnmuteCommand {
    * @description - Gets the data for the command
    * @return {SlashCommandBuilder} - The data for the command
    */
-  static get() {
+  static get(): Omit<SlashCommandBuilder, string> {
     return new SlashCommandBuilder()
       .setName('unmute')
       .setDescription('Unmutes a user, allowing them to talk and join voice channels.')

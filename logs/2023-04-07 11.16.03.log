@@ -1,0 +1,65 @@
+[2023-04-07T11:16:04.380] [INFO] default - Logged in as Jayfeather#0862
+[2023-04-07T11:16:04.387] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-04-07T11:16:04.389] [INFO] default - Loading module Ban.js
+[2023-04-07T11:16:04.391] [INFO] default - Loading module ReactRoles.js
+[2023-04-07T11:16:04.394] [INFO] default - Loading module RelayHandler.js
+[2023-04-07T11:16:04.396] [INFO] default - Loading module Verification.js
+[2023-04-07T11:16:04.398] [INFO] default - Loading command Ban.command.js
+[2023-04-07T11:16:04.416] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-04-07T11:16:04.418] [INFO] default - Loading command Cases.command.js
+[2023-04-07T11:16:04.424] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-04-07T11:16:04.426] [INFO] default - Loading command Embed.command.js
+[2023-04-07T11:16:04.435] [INFO] default - Loaded command CHAT_INPUT_embed
+[2023-04-07T11:16:04.436] [INFO] default - Loading command Kick.command.js
+[2023-04-07T11:16:04.441] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-04-07T11:16:04.443] [INFO] default - Loading command Mute.command.js
+[2023-04-07T11:16:04.449] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-04-07T11:16:04.451] [INFO] default - Loading command ReactionRoles.command.js
+[2023-04-07T11:16:04.464] [INFO] default - Loaded command CHAT_INPUT_reactroles
+[2023-04-07T11:16:04.466] [INFO] default - Loading command Reason.command.js
+[2023-04-07T11:16:04.471] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-04-07T11:16:04.472] [INFO] default - Loading command Unban.command.js
+[2023-04-07T11:16:04.475] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-04-07T11:16:04.476] [INFO] default - Loading command Unmute.command.js
+[2023-04-07T11:16:04.481] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-04-07T11:16:04.486] [INFO] default - Loading command Warn.command.js
+[2023-04-07T11:16:04.493] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-04-07T11:16:04.504] [INFO] default - Loading command Ban.command.js
+[2023-04-07T11:16:04.509] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-04-07T11:16:04.511] [INFO] default - Loading command Kick.command.js
+[2023-04-07T11:16:04.516] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-04-07T11:16:04.518] [INFO] default - Loading command Mute.command.js
+[2023-04-07T11:16:04.524] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-04-07T11:16:04.525] [INFO] default - Loading command Warn.command.js
+[2023-04-07T11:16:04.530] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-04-07T11:16:04.541] [INFO] default - Loading command Ban.command.js
+[2023-04-07T11:16:04.548] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-04-07T11:16:04.550] [INFO] default - Loading command Kick.command.js
+[2023-04-07T11:16:04.554] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-04-07T11:16:04.556] [INFO] default - Loading command Mute.command.js
+[2023-04-07T11:16:04.560] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-04-07T11:16:04.566] [INFO] default - Loading command Warn.command.js
+[2023-04-07T11:16:04.570] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-04-07T11:16:04.587] [INFO] default - All modules and commands loaded
+[2023-04-07T11:16:04.620] [INFO] default - Loading module Kick.js
+[2023-04-07T11:16:04.622] [INFO] default - Loading module TicketManager.js
+[2023-04-07T11:16:04.624] [INFO] default - Loading module VerificationManager.js
+[2023-04-07T11:16:04.629] [INFO] default - Loading module Logging.js
+[2023-04-07T11:16:04.636] [INFO] default - Loading module Mute.js
+[2023-04-07T11:16:04.638] [INFO] default - Loading module UpdateCase.js
+[2023-04-07T11:16:04.648] [INFO] default - Loading module Warn.js
+[2023-04-07T11:16:07.359] [ERROR] default - TypeError: channel.isTextBased is not a function
+    at InteractionCreateAction.handle (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\client\actions\InteractionCreate.js:46:33)
+    at module.exports [as INTERACTION_CREATE] (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\client\websocket\WebSocketManager.js:352:31)
+    at WebSocketShard.onPacket (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\client\websocket\WebSocketShard.js:480:22)
+    at WebSocketShard.onMessage (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\discord.js\src\client\websocket\WebSocketShard.js:320:10)
+    at callListener (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\ws\lib\event-target.js:290:14)
+    at WebSocket.onMessage (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\ws\lib\event-target.js:209:9)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.receiverOnMessage (C:\Users\Osmii\Desktop\Personal\discord bots\verification\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:513:28)
+[2023-04-07T11:16:07.661] [INFO] default - Updating cases...
+[2023-04-07T11:16:12.675] [INFO] default - Updating cases...
+[2023-04-07T11:16:17.684] [INFO] default - Updating cases...
+[2023-04-07T11:16:22.700] [INFO] default - Updating cases...

@@ -8,7 +8,7 @@ export default class ReactRolesCommand {
    * @description - Gets the data for the command
    * @return {SlashCommandBuilder} - The data for the command
    */
-  static get() {
+  static get(): Omit<SlashCommandBuilder, string> {
     return new SlashCommandBuilder()
       .setName('reactroles')
       .setDescription('Configures reaction roles for the server.')

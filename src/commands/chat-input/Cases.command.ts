@@ -9,7 +9,7 @@ export default class CasesCommand {
    * @description - Gets the data for the command
    * @return {SlashCommandBuilder} - The data for the command
    */
-  static get() {
+  static get(): Omit<SlashCommandBuilder, string> {
     return new SlashCommandBuilder()
       .setName('cases')
       .setDescription('Get a list of logs for a user.')

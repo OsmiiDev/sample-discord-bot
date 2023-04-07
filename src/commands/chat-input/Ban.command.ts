@@ -9,7 +9,7 @@ export default class BanCommand {
    * @description - Gets the data for the command
    * @return {SlashCommandBuilder} - The data for the command
    */
-  static get() {
+  static get(): Omit<SlashCommandBuilder, string> {
     return new SlashCommandBuilder()
       .setName('ban')
       .setDescription('Bans a user from the server.')

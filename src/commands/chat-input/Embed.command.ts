@@ -15,7 +15,7 @@ export default class EmbedCommand {
    * @description - Gets the data for the command
    * @return {SlashCommandBuilder} - The data for the command
    */
-  static get() {
+  static get(): Omit<SlashCommandBuilder, string> {
     return new SlashCommandBuilder()
       .setName('embed')
       .setDescription('Create a custom message')

@@ -1,0 +1,69 @@
+[2023-04-07T11:36:37.751] [INFO] default - Logged in as Jayfeather#0862
+[2023-04-07T11:36:37.754] [INFO] default - Loading module WelcomeAndGoodbye.js
+[2023-04-07T11:36:37.755] [INFO] default - Loading module Ban.js
+[2023-04-07T11:36:37.756] [INFO] default - Loading module ReactRoles.js
+[2023-04-07T11:36:37.757] [INFO] default - Loading module RelayHandler.js
+[2023-04-07T11:36:37.758] [INFO] default - Loading module Verification.js
+[2023-04-07T11:36:37.759] [INFO] default - Loading command Ban.command.js
+[2023-04-07T11:36:37.768] [INFO] default - Loaded command CHAT_INPUT_ban
+[2023-04-07T11:36:37.769] [INFO] default - Loading command Cases.command.js
+[2023-04-07T11:36:37.772] [INFO] default - Loaded command CHAT_INPUT_cases
+[2023-04-07T11:36:37.773] [INFO] default - Loading command Embed.command.js
+[2023-04-07T11:36:37.776] [INFO] default - Loaded command CHAT_INPUT_embed
+[2023-04-07T11:36:37.777] [INFO] default - Loading command Kick.command.js
+[2023-04-07T11:36:37.780] [INFO] default - Loaded command CHAT_INPUT_kick
+[2023-04-07T11:36:37.781] [INFO] default - Loading command Mute.command.js
+[2023-04-07T11:36:37.785] [INFO] default - Loaded command CHAT_INPUT_mute
+[2023-04-07T11:36:37.786] [INFO] default - Loading command ReactionRoles.command.js
+[2023-04-07T11:36:37.790] [INFO] default - Loaded command CHAT_INPUT_reactroles
+[2023-04-07T11:36:37.791] [INFO] default - Loading command Reason.command.js
+[2023-04-07T11:36:37.793] [INFO] default - Loaded command CHAT_INPUT_reason
+[2023-04-07T11:36:37.794] [INFO] default - Loading command Unban.command.js
+[2023-04-07T11:36:37.797] [INFO] default - Loaded command CHAT_INPUT_unban
+[2023-04-07T11:36:37.799] [INFO] default - Loading command Unmute.command.js
+[2023-04-07T11:36:37.803] [INFO] default - Loaded command CHAT_INPUT_unmute
+[2023-04-07T11:36:37.805] [INFO] default - Loading command Warn.command.js
+[2023-04-07T11:36:37.808] [INFO] default - Loaded command CHAT_INPUT_warn
+[2023-04-07T11:36:37.814] [INFO] default - Loading command Ban.command.js
+[2023-04-07T11:36:37.821] [INFO] default - Loaded command MESSAGE_CONTEXT_Ban
+[2023-04-07T11:36:37.822] [INFO] default - Loading command Kick.command.js
+[2023-04-07T11:36:37.825] [INFO] default - Loaded command MESSAGE_CONTEXT_Kick
+[2023-04-07T11:36:37.826] [INFO] default - Loading command Mute.command.js
+[2023-04-07T11:36:37.831] [INFO] default - Loaded command MESSAGE_CONTEXT_Mute
+[2023-04-07T11:36:37.833] [INFO] default - Loading command Warn.command.js
+[2023-04-07T11:36:37.836] [INFO] default - Loaded command MESSAGE_CONTEXT_Warn
+[2023-04-07T11:36:37.841] [INFO] default - Loading command Ban.command.js
+[2023-04-07T11:36:37.844] [INFO] default - Loaded command USER_CONTEXT_Ban
+[2023-04-07T11:36:37.847] [INFO] default - Loading command Kick.command.js
+[2023-04-07T11:36:37.850] [INFO] default - Loaded command USER_CONTEXT_Kick
+[2023-04-07T11:36:37.851] [INFO] default - Loading command Mute.command.js
+[2023-04-07T11:36:37.854] [INFO] default - Loaded command USER_CONTEXT_Mute
+[2023-04-07T11:36:37.854] [INFO] default - Loading command Warn.command.js
+[2023-04-07T11:36:37.856] [INFO] default - Loaded command USER_CONTEXT_Warn
+[2023-04-07T11:36:37.860] [INFO] default - All modules and commands loaded
+[2023-04-07T11:36:37.876] [INFO] default - Loading module Kick.js
+[2023-04-07T11:36:37.877] [INFO] default - Loading module TicketManager.js
+[2023-04-07T11:36:37.877] [INFO] default - Loading module VerificationManager.js
+[2023-04-07T11:36:37.883] [INFO] default - Loading module Logging.js
+[2023-04-07T11:36:37.887] [INFO] default - Loading module Mute.js
+[2023-04-07T11:36:37.888] [INFO] default - Loading module UpdateCase.js
+[2023-04-07T11:36:37.892] [INFO] default - Loading module Warn.js
+[2023-04-07T11:36:40.905] [INFO] default - Updating cases...
+[2023-04-07T11:36:45.919] [INFO] default - Updating cases...
+[2023-04-07T11:36:50.930] [INFO] default - Updating cases...
+[2023-04-07T11:36:55.935] [INFO] default - Updating cases...
+[2023-04-07T11:37:00.943] [INFO] default - Updating cases...
+[2023-04-07T11:37:04.111] [INFO] default - messageCreate
+[2023-04-07T11:37:04.134] [INFO] default - messageCreate
+[2023-04-07T11:37:05.417] [INFO] default - interactionCreate
+[2023-04-07T11:37:05.428] [INFO] default - interactionCreate
+[2023-04-07T11:37:05.436] [INFO] default - interactionCreate
+[2023-04-07T11:37:05.445] [INFO] default - interactionCreate
+[2023-04-07T11:37:05.454] [INFO] default - interactionCreate
+[2023-04-07T11:37:05.464] [INFO] default - interactionCreate
+[2023-04-07T11:37:05.473] [INFO] default - interactionCreate
+[2023-04-07T11:37:05.950] [INFO] default - Updating cases...
+[2023-04-07T11:37:10.961] [INFO] default - Updating cases...
+[2023-04-07T11:37:15.967] [INFO] default - Updating cases...
+[2023-04-07T11:37:20.971] [INFO] default - Updating cases...
+[2023-04-07T11:37:25.985] [INFO] default - Updating cases...

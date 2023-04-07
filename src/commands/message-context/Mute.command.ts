@@ -11,7 +11,7 @@ export default class MuteCommand {
    * @description - Gets the data for the command
    * @return {SlashCommandBuilder} - The data for the command
    */
-  static get() {
+  static get(): Omit<ContextMenuCommandBuilder, string> {
     return new ContextMenuCommandBuilder()
       .setName('Mute')
       .setDMPermission(false)
