@@ -108,7 +108,7 @@ export default class EmbedCommand {
             ]),
         ],
         ephemeral: true,
-      }).catch(() => null);
+      });
     }
     if (subcommand === 'create') {
       const name = interaction.options.getString('name', true);
@@ -119,7 +119,6 @@ export default class EmbedCommand {
         const text = JSON.stringify(data);
 
         const statement = await DataUtils.db.prepare('INSERT INTO messages (name, json) VALUES (?, ?)').catch(() => null);
-
         const result = await statement?.run(name, text).catch(() => null);
         if (!result) {
           await interaction.reply({
@@ -141,7 +140,7 @@ export default class EmbedCommand {
               .setDescription(`<:Success:1000468117878747267> Successfully added the custom message. You can preview it with \`/embed preview ${name}\``)
               .setColor('#10b981'),
           ],
-        }).catch(() => null);
+        }).catch(() => console.log(`Failed to reply - ${__filename}`));
       } catch (e) {
         await interaction.reply({
           content: '',
@@ -258,7 +257,7 @@ export default class EmbedCommand {
       }
 
       const _channel = interaction.options.getChannel('channel', true);
-      const channel = await interaction.guild?.channels.fetch(_channel.id).catch(() => null);
+      const channel = await interaction.guild?.channels.fetch(_channel.id).catch(() => console.log(`Failed to fetch channel - ${__filename}`));
       if (!channel || !channel.isTextBased()) {
         await interaction.reply({
           content: '',
@@ -283,7 +282,7 @@ export default class EmbedCommand {
         const msg = await channel.send({
           content: '',
           embeds: [embed],
-        }).catch(() => null);
+        }).catch(() => console.log(`Failed to send message - ${__filename}`));
         if (msg) {
           await interaction.reply({
             content: '',
@@ -292,7 +291,7 @@ export default class EmbedCommand {
                 .setDescription('<:Success:1000468117878747267> Successfully sent the custom message.')
                 .setColor('#10b981'),
             ],
-          }).catch(() => null);
+          }).catch(() => console.log(`Failed to reply - ${__filename}`));
         } else {
           await interaction.reply({
             content: '',

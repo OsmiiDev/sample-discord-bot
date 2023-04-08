@@ -115,9 +115,9 @@ export default class ReactRolesCommand {
             .setDescription('<:Success:1000468117878747267> Successfully added the reaction role.')
             .setColor('#10b981'),
         ],
-      }).catch(() => null);
+      }).catch(() => console.log(`Failed to reply - ${__filename}`));
 
-      const reaction = await message.react(emoji).catch(() => null);
+      const reaction = await message.react(emoji).catch(() => console.log(`Failed to react - ${__filename}`));
       if (!reaction) {
         await interaction.followUp({
           content: '',
@@ -126,7 +126,7 @@ export default class ReactRolesCommand {
               .setDescription('<:Warn:1087961063468834816> I couldn\'t add the reaction to the message. Double check that it\'s a valid emoji and I have permission to add reactions to the message.')
               .setColor('#f59e0b'),
           ],
-        });
+        }).catch(() => console.log(`Failed to follow up - ${__filename}`));
         return;
       }
     }
@@ -149,7 +149,7 @@ export default class ReactRolesCommand {
         });
         return;
       }
-      const message = await channel.messages?.fetch(messageId).catch(() => null);
+      const message = await channel.messages?.fetch(messageId).catch(() => console.log(`Failed to fetch message - ${__filename}`));
       if (!message) {
         await interaction.reply({
           content: '',
@@ -172,7 +172,7 @@ export default class ReactRolesCommand {
             .setDescription('<:Success:1000468117878747267> Successfully removed the reaction role.')
             .setColor('#10b981'),
         ],
-      }).catch(() => null);
+      }).catch(() => console.log(`Failed to reply - ${__filename}`));
     }
     if (subcommand === 'list') {
       // const reactionRoles = await ReactRoles.get(interaction.guild!.id);

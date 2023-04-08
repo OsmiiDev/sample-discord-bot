@@ -136,7 +136,7 @@ export default class BanCommand {
       });
       return;
     }
-    await interaction.deferReply();
+    await interaction.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const result = await Ban.createBan(targetUser, member, reason, duration);
     // eslint-disable-next-line max-len
@@ -151,7 +151,7 @@ export default class BanCommand {
             .setDescription(resultText)
             .setColor('#6366f1'),
         ],
-      });
+      }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
     }
   }
 }

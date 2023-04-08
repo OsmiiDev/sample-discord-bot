@@ -29,7 +29,7 @@ export default class KickCommand {
     const member = interaction.member;
     const targetUser = interaction.targetUser;
     if (!(member instanceof GuildMember)) throw new Error('Member is not a guild member.');
-    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => null));
+    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => console.log(`Failed to fetch member - ${__filename}`)));
 
     if (!targetMember) {
       await interaction.reply({
@@ -126,12 +126,12 @@ export default class KickCommand {
 
     interaction.showModal(modal);
 
-    const submit: ModalSubmitInteraction | null = await interaction.awaitModalSubmit({
+    const submit: ModalSubmitInteraction | void = await interaction.awaitModalSubmit({
       filter: (i) => i.customId === `kick-${id}`,
       time: 15000,
-    }).catch(() => null);
+    }).catch(() => console.log(`Failed to create collector - ${__filename}`));
     if (!submit) return;
-    await submit.deferReply().catch(() => null);
+    await submit.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const reason = submit.fields.getTextInputValue('kick-reason') || 'No reason provided';
 
@@ -147,6 +147,6 @@ export default class KickCommand {
           .setDescription(resultText)
           .setColor('#6366f1'),
       ],
-    }).catch(() => null);
+    }).catch(() => console.log(`Failed to follow up - ${__filename}`));
   }
 }

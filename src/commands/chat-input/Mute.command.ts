@@ -27,7 +27,7 @@ export default class MuteCommand {
     const member = interaction.member;
     const targetUser = interaction.options.getUser('user', true);
     if (!(member instanceof GuildMember)) throw new Error('Member is not a guild member.');
-    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => null));
+    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => console.log(`Failed to fetch member - ${__filename}`)));
 
     if (!targetMember) {
       await interaction.reply({
@@ -149,7 +149,7 @@ export default class MuteCommand {
       return;
     }
 
-    await interaction.deferReply();
+    await interaction.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const result = await Mute.createMute(targetMember, member, reason, duration);
     // eslint-disable-next-line max-len
@@ -164,7 +164,7 @@ export default class MuteCommand {
             .setDescription(resultText)
             .setColor('#6366f1'),
         ],
-      });
+      }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
     }
   }
 }

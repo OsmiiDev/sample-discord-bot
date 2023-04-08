@@ -29,7 +29,7 @@ export default class BanCommand {
     const member = interaction.member;
     const targetUser = interaction.targetUser;
     if (!(member instanceof GuildMember)) throw new Error('Member is not a guild member.');
-    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => null));
+    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => console.log(`Failed to fetch member - ${__filename}`)));
 
     // Check if the user is trying to act on themself
     if (member.id === targetUser.id) {
@@ -121,12 +121,12 @@ export default class BanCommand {
 
     interaction.showModal(modal);
 
-    const submit: ModalSubmitInteraction | null = await interaction.awaitModalSubmit({
+    const submit: ModalSubmitInteraction | void = await interaction.awaitModalSubmit({
       filter: (i) => i.customId === `ban-${id}`,
       time: 15000,
-    }).catch(() => null);
+    }).catch(() => console.log(`Failed to create collector - ${__filename}`));
     if (!submit) return;
-    await submit.deferReply().catch(() => null);
+    await submit.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const reason = submit.fields.getTextInputValue('ban-reason') || 'No reason provided';
     let duration = -1;
@@ -144,7 +144,7 @@ export default class BanCommand {
             .setDescription(resultText)
             .setColor('#6366f1'),
         ],
-      }).catch(() => null);
+      }).catch(() => console.log(`Failed to follow up - ${__filename}`));
 
       return;
     }
@@ -199,6 +199,6 @@ export default class BanCommand {
           .setDescription(resultText)
           .setColor('#6366f1'),
       ],
-    }).catch(() => null);
+    }).catch(() => console.log(`Failed to follow up - ${__filename}`));
   }
 }

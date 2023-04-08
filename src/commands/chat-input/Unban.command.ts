@@ -56,7 +56,7 @@ export default class unbanCommand {
 
     const reason = interaction.options.getString('reason') || 'No reason provided';
 
-    await interaction.deferReply();
+    await interaction.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const result = await Ban.createUnban(targetUser, member, reason);
     // eslint-disable-next-line max-len
@@ -71,7 +71,7 @@ export default class unbanCommand {
             .setDescription(resultText)
             .setColor('#6366f1'),
         ],
-      });
+      }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
     }
   }
 }

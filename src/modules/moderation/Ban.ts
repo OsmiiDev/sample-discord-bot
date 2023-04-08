@@ -71,7 +71,7 @@ export default class Ban {
       stepBan.success = true;
 
       // DM the user
-      const dm = await user.createDM().catch(() => null);
+      const dm = await user.createDM().catch(() => console.log(`Failed to create DM - ${__filename}`));
       if (dm) {
         const message = await dm.send({
           embeds: [
@@ -96,7 +96,7 @@ export default class Ban {
                 name: moderator.guild.name,
               }),
           ],
-        }).catch(() => null);
+        }).catch(() => console.log(`Failed to send DM - ${__filename}`));
 
         if (message instanceof Message) {
           stepDM.message = 'Sent a DM to the user';
@@ -106,14 +106,14 @@ export default class Ban {
 
       // Ban the user
       if ((await moderator.guild.members.fetchMe()).permissions.has('BanMembers')) {
-        const member: GuildMember | null = await moderator.guild.members.fetch(user).catch(() => null);
+        const member: GuildMember | void = await moderator.guild.members.fetch(user).catch(() => console.log(`Failed to fetch member - ${__filename}`));
         if (member) {
-          if (member.bannable) await member.ban({reason: reason.slice(0, 500)}).catch(() => null);
+          if (member.bannable) await member.ban({reason: reason.slice(0, 500)}).catch(() => console.log(`Failed to ban member - ${__filename}`));
           else {
             stepBan.message = 'I don\'t have permission to ban this user';
             stepBan.success = false;
           }
-        } else await moderator.guild.bans.create(user, {reason: reason.slice(0, 500)}).catch(() => null);
+        } else await moderator.guild.bans.create(user, {reason: reason.slice(0, 500)}).catch(() => console.log(`Failed to ban member - ${__filename}`));
       } else {
         stepBan.message = 'I don\'t have permission to ban users';
         stepBan.success = false;
@@ -161,7 +161,7 @@ export default class Ban {
       stepUnban.success = true;
 
       // DM the user
-      const dm = await user.createDM().catch(() => null);
+      const dm = await user.createDM().catch(() => console.log(`Failed to create DM - ${__filename}`));
       if (dm) {
         const message = await dm.send({
           embeds: [
@@ -181,7 +181,7 @@ export default class Ban {
                 name: moderator.guild.name,
               }),
           ],
-        }).catch(() => null);
+        }).catch(() => console.log(`Failed to send DM - ${__filename}`));
 
         if (message instanceof Message) {
           stepDM.message = 'Sent a DM to the user';
@@ -191,7 +191,7 @@ export default class Ban {
 
       // Unban the user
       if ((await moderator.guild.members.fetchMe()).permissions.has('BanMembers')) {
-        await moderator.guild.bans.remove(user, reason.slice(0, 500)).catch(() => null);
+        await moderator.guild.bans.remove(user, reason.slice(0, 500)).catch(() => console.log(`Failed to unban user - ${__filename}`));
       } else {
         stepUnban.message = 'I don\'t have permission to unban users';
         stepUnban.success = false;

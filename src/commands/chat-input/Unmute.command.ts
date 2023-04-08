@@ -109,7 +109,7 @@ export default class UnmuteCommand {
 
     const reason = interaction.options.getString('reason') || 'No reason provided';
 
-    await interaction.deferReply();
+    await interaction.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const result = await Mute.createUnmute(targetMember, member, reason);
     // eslint-disable-next-line max-len
@@ -124,7 +124,7 @@ export default class UnmuteCommand {
             .setDescription(resultText)
             .setColor('#6366f1'),
         ],
-      });
+      }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
     }
   }
 }

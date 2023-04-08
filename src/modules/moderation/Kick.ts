@@ -31,7 +31,7 @@ export default class Kick {
 
     try {
       // DM the user
-      const dm = await member.user.createDM().catch(() => null);
+      const dm = await member.user.createDM().catch(() => console.log(`Failed to create DM - ${__filename}`));
       if (dm) {
         const message = await dm.send({
           embeds: [
@@ -51,7 +51,7 @@ export default class Kick {
                 name: moderator.guild.name,
               }),
           ],
-        }).catch(() => null);
+        }).catch(() => console.log(`Failed to send DM - ${__filename}`));
 
         if (message instanceof Message) {
           stepDM.message = 'Sent a DM to the user';
@@ -60,7 +60,7 @@ export default class Kick {
       }
 
       if (member && member.kickable) {
-        await member.kick(reason);
+        await member.kick(reason).catch(() => console.log(`Failed to kick user - ${__filename}`));
         stepKick.message = `Kicked \`${member.user.tag}\` with reason ${reason}`;
         stepKick.success = true;
       }

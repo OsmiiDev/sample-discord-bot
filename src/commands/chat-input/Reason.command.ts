@@ -40,7 +40,7 @@ export default class CasesCommand {
       return;
     }
 
-    await interaction.deferReply();
+    await interaction.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const caseId = interaction.options.getString('case', true);
     const reason = interaction.options.getString('reason', true);
@@ -55,7 +55,7 @@ export default class CasesCommand {
             .setDescription('<:Failure:1000494098635034674> Case not found.')
             .setColor('#ff0033'),
         ],
-      });
+      }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
       return;
     }
 
@@ -73,7 +73,7 @@ export default class CasesCommand {
           .setDescription(`<:Success:1087892239449075712> Successfully updated reason for case #${caseDataResult.case_number}.`)
           .setColor('#00ff00'),
       ],
-    });
+    }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
   }
 
   /**

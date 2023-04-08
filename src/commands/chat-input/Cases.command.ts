@@ -41,7 +41,7 @@ export default class CasesCommand {
       return;
     }
 
-    await interaction.deferReply();
+    await interaction.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const embeds = await CasesCommand.createEmbeds(targetUser);
     let totalPages = embeds.total;
@@ -115,7 +115,7 @@ export default class CasesCommand {
             ]),
           ],
           embeds: embeds.embeds,
-        });
+        }).catch(() => console.log(`Failed to update reply - ${__filename}`));
       } else if (press.customId === 'cases_next') {
         pageNum++;
         if (pageNum >= totalPages) pageNum = totalPages - 1;
@@ -140,7 +140,7 @@ export default class CasesCommand {
             ]),
           ],
           embeds: embeds.embeds,
-        });
+        }).catch(() => console.log(`Failed to update reply - ${__filename}`));
       }
     });
 
@@ -165,7 +165,7 @@ export default class CasesCommand {
               .setDisabled(true),
           ]),
         ],
-      }).catch(() => null);
+      }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
     });
   }
 

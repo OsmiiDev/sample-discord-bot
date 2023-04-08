@@ -108,11 +108,11 @@ export default class PunishmentLogger {
         warn: 0xeab308,
       }[type] || 0x000000);
 
-    const guild = await client.guilds.fetch(process.env.guild!).catch(() => null);
-    const channel = await guild?.channels.fetch(DataUtils.config.moderation_modlogChannel).catch(() => null);
+    const guild = await client.guilds.fetch(process.env.guild!).catch(() => console.log(`Failed to fetch guild - ${__filename}`));
+    const channel = await guild?.channels.fetch(DataUtils.config.moderation_modlogChannel).catch(() => console.log(`Failed to fetch channel - ${__filename}`));
 
     if (channel && !(channel instanceof CategoryChannel)) {
-      const message = await (channel as Message['channel']).send({embeds: [embed]}).catch(() => null);
+      const message = await (channel as Message['channel']).send({embeds: [embed]}).catch(() => console.log(`Failed to send message - ${__filename}`));
       if (message) {
         const statement = await DataUtils.db.prepare('UPDATE cases SET link = ? WHERE case_id = ?').catch(() => null);
         await statement?.run(message.url, id);

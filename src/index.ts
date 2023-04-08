@@ -48,7 +48,7 @@ client.on('messageCreate', (message) => {
         new ActionRowBuilder<ButtonBuilder>()
           .addComponents(
             new ButtonBuilder()
-              .setCustomId('staff_application')
+              .setCustomId('staff_application'),
           ),
       ],
       content: '',

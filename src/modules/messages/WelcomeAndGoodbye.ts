@@ -3,6 +3,8 @@ import {listener} from '../../utils/ModuleUtils';
 import {DataUtils} from '../../utils/DataUtils';
 import {client} from '../..';
 
+import _ from 'lodash';
+
 /**
  * @description - Welcome and farewell messages
  */
@@ -13,7 +15,9 @@ export default class WelcomeAndGoodbye {
    */
   @listener('guildMemberAdd')
   static async join(member: GuildMember) {
-    const message = WelcomeAndGoodbye.replaceVariables(DataUtils.config.welcome_message, [
+    console.log(member);
+    const welcomeCopy = _.cloneDeep(DataUtils.config.welcome_message); // Deep clone the welcome message to avoid modifying the original
+    const message = WelcomeAndGoodbye.replaceVariables(welcomeCopy, [
       {
         from: 'servername',
         to: member.guild.name,
@@ -32,10 +36,10 @@ export default class WelcomeAndGoodbye {
       },
     ]);
 
-    const channel = await client.channels.fetch(DataUtils.config.welcome_channel).catch(() => null);
+    const channel = await client.channels.fetch(DataUtils.config.welcome_channel).catch(() => console.log(`Failed to fetch welcome channel - ${__filename}`));
     if (!channel || !channel.isTextBased()) return;
 
-    channel.send(message).catch(() => null);
+    await channel.send(message).catch(() => console.log(`Failed to send message - ${__filename}`));
   }
 
   /**
@@ -44,7 +48,8 @@ export default class WelcomeAndGoodbye {
    */
   @listener('guildMemberRemove')
   static async leave(member: GuildMember) {
-    const message = WelcomeAndGoodbye.replaceVariables(DataUtils.config.goodbye_message, [
+    const goodbyeCopy = _.cloneDeep(DataUtils.config.goodbye_message); // Deep clone the goodbye message to avoid modifying the original
+    const message = WelcomeAndGoodbye.replaceVariables(goodbyeCopy, [
       {
         from: 'servername',
         to: member.guild.name,
@@ -63,10 +68,10 @@ export default class WelcomeAndGoodbye {
       },
     ]);
 
-    const channel = await client.channels.fetch(DataUtils.config.goodbye_channel).catch(() => null);
+    const channel = await client.channels.fetch(DataUtils.config.goodbye_channel).catch(() => console.log(`Failed to fetch goodbye channel - ${__filename}`));
     if (!channel || !channel.isTextBased()) return;
 
-    await channel.send(message).catch(() => null);
+    await channel.send(message).catch(() => console.log(`Failed to send message - ${__filename}`));
   }
 
   /**
@@ -77,7 +82,7 @@ export default class WelcomeAndGoodbye {
   static async sendWelcome(channel: GuildChannel, user: User) {
     if (!channel.isTextBased()) return;
 
-    const message = WelcomeAndGoodbye.replaceVariables(DataUtils.config.verification_welcomeMessage, [
+    const message = WelcomeAndGoodbye.replaceVariables(_.cloneDeep(DataUtils.config.verification_welcomeMessage), [
       {
         from: 'servername',
         to: channel.guild.name,
@@ -96,15 +101,16 @@ export default class WelcomeAndGoodbye {
       },
     ]);
 
-    await channel.send(message).catch(() => null);
+    await channel.send(message).catch(() => console.log(`Failed to send custom message - ${__filename}`));
   }
   /**
    * @description - Recursively replaces all variables in an object
-   * @param {object} obj - The object to replace variables in
+   * @param {object} _obj - The object to replace variables in
    * @param {{from: string, to: string}[]} vars - The context to replace
    * @return {object} - The object with all keys replaced
    */
-  static replaceVariables(obj: {[key: string]: unknown} | string, vars: {from: string, to: string}[]) {
+  static replaceVariables(_obj: {[key: string]: unknown} | string, vars: {from: string, to: string}[]) {
+    let obj = _.clone(_obj);
     if (typeof obj === 'string') {
       vars.forEach(({
         from, to,

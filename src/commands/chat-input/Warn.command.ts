@@ -25,7 +25,7 @@ export default class WarnCommand {
     const member = interaction.member;
     const targetUser = interaction.options.getUser('user', true);
     if (!(member instanceof GuildMember)) throw new Error('Member is not a guild member.');
-    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => null));
+    const targetMember = await (interaction.guild!.members.fetch(targetUser.id).catch(() => console.log(`Failed to fetch member - ${__filename}`)));
 
     // Check if the user is trying to act on themself
     if (member.id === targetUser.id) {
@@ -80,7 +80,7 @@ export default class WarnCommand {
       return;
     }
 
-    await interaction.deferReply();
+    await interaction.deferReply().catch(() => console.log(`Failed to defer reply - ${__filename}`));
 
     const reason = interaction.options.getString('reason') || 'No reason provided';
 
@@ -97,7 +97,7 @@ export default class WarnCommand {
             .setDescription(resultText)
             .setColor('#6366f1'),
         ],
-      }).catch(() => null);
+      }).catch(() => console.log(`Failed to edit reply - ${__filename}`));
     }
   }
 }
