@@ -15,13 +15,12 @@ export default class UpdateCase {
    * @constructor
    */
   constructor() {
-    setTimeout(() => this.run(), 3000);
   }
 
   /**
    * @description - Runs the update case loop
    */
-  private async run() {
+  static async run() {
     const guild = await client.guilds.fetch(process.env.guild!).catch(() => null);
     logger.info('Updating cases...');
 

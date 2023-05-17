@@ -128,8 +128,8 @@ export default class TicketManager {
    * @param {string=} reason - The reason for closing the ticket
    */
   static async close(id: string, actor: User, reason?: string) {
-    const ticket = await DataUtils.db.prepare('SELECT * FROM tickets WHERE ticket_id = ?').catch(() => null);
-    const ticketData = await ticket?.get(id).catch(() => null);
+    const ticket = await DataUtils.db.prepare('SELECT * FROM tickets WHERE ticket_id = ? AND closed = ?').catch(() => null);
+    const ticketData = await ticket?.get(id, 0).catch(() => null);
     if (!ticketData) return;
 
     const guild = await client.guilds.fetch(process.env.guild!).catch(() => null);

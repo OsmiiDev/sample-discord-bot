@@ -1,6 +1,9 @@
 import {ActionRowBuilder, ButtonBuilder, Client, EmbedBuilder, Partials} from 'discord.js';
-import {config} from 'dotenv';
+
 import {DataUtils} from './utils/DataUtils.js';
+import {ModuleUtils} from './utils/ModuleUtils.js';
+import UpdateCase from './modules/moderation/UpdateCase.js';
+import {config} from 'dotenv';
 import {logger} from './utils/LoggingUtils.js';
 
 config();
@@ -12,13 +15,14 @@ export const client = new Client({
   partials: [Partials.Channel, Partials.GuildMember, Partials.Message, Partials.Reaction, Partials.User],
 });
 
-import {ModuleUtils} from './utils/ModuleUtils.js';
 
 client.on('ready', () => {
   logger.info(`Logged in as ${client.user?.tag}`);
   ModuleUtils.loadAll();
   ModuleUtils.loadCommands();
   logger.info('All modules and commands loaded');
+
+  UpdateCase.run(); // Start the update case loop
 });
 
 client.on('messageCreate', (message) => {
