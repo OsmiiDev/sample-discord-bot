@@ -1,22 +1,15 @@
-import {GuildMember} from 'discord.js';
-import {client} from '../..';
-import {DataUtils} from '../../utils/DataUtils';
-import {logger} from '../../utils/LoggingUtils';
-import {listener} from '../../utils/ModuleUtils';
 import Ban from './Ban';
+import {DataUtils} from '../../utils/DataUtils';
+import {GuildMember} from 'discord.js';
 import Mute from './Mute';
+import {client} from '../..';
+import {listener} from '../../utils/ModuleUtils';
+import {logger} from '../../utils/LoggingUtils';
 
 /**
  * @description - Continously checks for expired cases
  */
 export default class UpdateCase {
-  /**
-   * @description - Constructor for UpdateCase
-   * @constructor
-   */
-  constructor() {
-  }
-
   /**
    * @description - Runs the update case loop
    */
