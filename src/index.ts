@@ -16,13 +16,15 @@ export const client = new Client({
 });
 
 
-client.on('ready', () => {
+client.once('ready', () => {
   logger.info(`Logged in as ${client.user?.tag}`);
   ModuleUtils.loadAll();
   ModuleUtils.loadCommands();
   logger.info('All modules and commands loaded');
 
-  UpdateCase.run(); // Start the update case loop
+  setInterval(() => {
+    UpdateCase.run(); // Start the update case loop
+  }, 1000 * 10);
 });
 
 client.on('messageCreate', (message) => {

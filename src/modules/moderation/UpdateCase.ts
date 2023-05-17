@@ -59,8 +59,6 @@ export default class UpdateCase {
         }
       }
     }
-
-    setTimeout(() => this.run(), 5000);
   }
 
   /**
